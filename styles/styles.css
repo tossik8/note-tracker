@@ -10452,8 +10452,10 @@ main #notes div button {
   position: absolute;
   right: 200px;
   background: none;
+  border: none;
 }
 main #notes div button:before {
+  font-size: 30px;
   content: "\f056";
 }
 main #notes div button:before::before {

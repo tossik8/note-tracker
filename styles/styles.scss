@@ -56,9 +56,11 @@ main{
                 position: absolute;
                 right: 200px;
                 background: none;
+                border: none;
             }
             button:before{
                 @include fa-icon-solid($fa-var-circle-minus);
+                font-size: 30px;
                 content: fa-content($fa-var-circle-minus);
             }
         }
