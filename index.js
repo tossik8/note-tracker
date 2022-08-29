@@ -5,7 +5,6 @@ function createElements(){
     let title = document.createElement("h4");
     let content = document.createElement("p");
     let button = document.createElement("button");
-    button.innerHTML = "Delete";
     button.setAttribute("value", ++notes);
     button.addEventListener("click", () => {
         document.getElementById(button.value).remove();
